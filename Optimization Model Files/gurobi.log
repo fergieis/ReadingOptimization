@@ -560,3 +560,574 @@ Gurobi 6.5.0 (linux64) logging started Tue Feb 16 21:16:16 2016
 
 Gurobi 6.5.0 (linux64) logging started Tue Feb 16 21:16:56 2016
 
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:07:50 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan16.mps
+Reading time = 0.01 seconds
+16: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+04, 2e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.04s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:08:51 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan1.mps
+Reading time = 0.00 seconds
+1: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:09:05 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:23:12 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:23:22 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:24:38 2016
+
+Unknown parameter: 'sense'
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:24:49 2016
+
+Unknown parameter: 'sense'
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:24:55 2016
+
+Unknown parameter: 'sense'
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:25:04 2016
+
+Unknown parameter: 'sense'
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:26:49 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan12.mps
+Reading time = 0.00 seconds
+12: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+04, 1e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:26:56 2016
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:44:36 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan16.mps
+Reading time = 0.00 seconds
+: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+04, 2e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:45:11 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 1:
+OBJSENSE:MAX
+
+ERROR 10012: MPS read error at line 1:
+OBJSENSE:MAX
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:45:33 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 1:
+OBJSENSE: MAXIMIZE
+
+ERROR 10012: MPS read error at line 1:
+OBJSENSE: MAXIMIZE
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:46:12 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan16.mps
+Reading time = 0.00 seconds
+: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+04, 2e+04]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:55:49 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan15.mps
+Reading time = 0.00 seconds
+: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [2e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [5e+03, 5e+03]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:56:06 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan15.mps
+Reading time = 0.00 seconds
+: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [2e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [5e+03, 5e+03]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 101 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 331 columns, 993 nonzeros
+Variable types: 0 continuous, 331 integer (327 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:56:27 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 6:
+ N  OBJ
+
+ERROR 10012: MPS read error at line 6:
+ N  OBJ
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:57:10 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 5:
+ N  OBJ
+
+ERROR 10012: MPS read error at line 5:
+ N  OBJ
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:57:28 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 6:
+ L  _C1
+
+ERROR 10012: MPS read error at line 6:
+ L  _C1
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:57:59 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 4:
+N  OBJ
+
+ERROR 10012: MPS read error at line 4:
+N  OBJ
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:58:52 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Error at line 4:
+N  OBJ
+
+ERROR 10012: MPS read error at line 4:
+N  OBJ
+
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 21:59:04 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan5.mps
+Reading time = 0.00 seconds
+5: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [2e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+03, 2e+03]
+Found heuristic solution: objective 0
+Presolve removed 3 rows and 105 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 327 columns, 981 nonzeros
+Variable types: 0 continuous, 327 integer (323 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.0 (linux64) logging started Wed Feb 17 22:17:15 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+Read MPS format model from file ReadingPlan161.mps
+Reading time = 0.00 seconds
+16: 6 rows, 432 columns, 1439 nonzeros
+Optimize a model with 6 rows, 432 columns and 1439 nonzeros
+Coefficient statistics:
+  Matrix range    [4e-01, 4e+03]
+  Objective range [1e+02, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+04, 2e+04]
+Found heuristic solution: objective -66072.4
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.01s
+Presolved: 3 rows, 428 columns, 1284 nonzeros
+Variable types: 0 continuous, 428 integer (424 binary)
+
+Root relaxation: objective -8.313877e+04, 10 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -83138.775    0    3 -66072.420 -83138.775  25.8%     -    0s
+H    0     0                    -82856.28000 -83138.775  0.34%     -    0s
+H    0     0                    -83014.66000 -83138.775  0.15%     -    0s
+     0     0 -83132.192    0    4 -83014.660 -83132.192  0.14%     -    0s
+     0     0 -83132.192    0    3 -83014.660 -83132.192  0.14%     -    0s
+     0     0 -83132.192    0    4 -83014.660 -83132.192  0.14%     -    0s
+     0     0 -83129.942    0    4 -83014.660 -83129.942  0.14%     -    0s
+     0     0 -83128.224    0    6 -83014.660 -83128.224  0.14%     -    0s
+     0     0 -83127.756    0    6 -83014.660 -83127.756  0.14%     -    0s
+     0     0 -83122.338    0    5 -83014.660 -83122.338  0.13%     -    0s
+     0     0 -83120.457    0    6 -83014.660 -83120.457  0.13%     -    0s
+     0     0 -83117.960    0    8 -83014.660 -83117.960  0.12%     -    0s
+     0     0 -83117.443    0    8 -83014.660 -83117.443  0.12%     -    0s
+     0     0 -83115.834    0    8 -83014.660 -83115.834  0.12%     -    0s
+     0     0 -83115.834    0    3 -83014.660 -83115.834  0.12%     -    0s
+     0     0 -83115.834    0    4 -83014.660 -83115.834  0.12%     -    0s
+     0     0 -83115.834    0    5 -83014.660 -83115.834  0.12%     -    0s
+     0     0 -83115.834    0    5 -83014.660 -83115.834  0.12%     -    0s
+H    0     0                    -83019.44000 -83115.834  0.12%     -    0s
+     0     0 -83115.834    0    7 -83019.440 -83115.834  0.12%     -    0s
+     0     0 -83115.834    0    9 -83019.440 -83115.834  0.12%     -    0s
+     0     2 -83115.834    0    9 -83019.440 -83115.834  0.12%     -    0s
+
+Cutting planes:
+  Gomory: 10
+  Cover: 3
+  MIR: 69
+  Flow cover: 13
+
+Explored 43031 nodes (84080 simplex iterations) in 3.17 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -8.301944000000e+04, best bound -8.302722191081e+04, gap 0.0094%

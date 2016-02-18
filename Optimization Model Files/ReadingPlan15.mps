@@ -1,7 +1,7 @@
-*SENSE:Maximize
+*OBJSENSE:Maximize
 NAME          15
 ROWS
- N  OBJ
+N  OBJ
  L  _C1
  G  _C2
  G  _C3

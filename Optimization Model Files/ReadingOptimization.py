@@ -90,7 +90,8 @@ def solveit(data, mins, maxs, pers, params, quarter, flag):
     p += (maxs[2]  >= total_phil    >= mins[2])
 
     #Proportional constraints
-    p += LpConstraint(per_scifi, sense=1, name="Percent Scifi", rhs = 0) #pers[0] >= 0) #can I flag this in interface to <= or >=?
+    p += LpConstraint(per_scifi, sense=1, name="Percent Scifi", rhs = 0) #pers[0] >= 0) 
+#can I flag this in interface to <= or >=?
     p += LpConstraint(per_read, sense=-1, name="Percent Read" , rhs = 0) #pers[1] <= 0) 
 
     p.writeMPS("ReadingPlan%s.mps" % str(quarter))
@@ -110,10 +111,8 @@ def solveit(data, mins, maxs, pers, params, quarter, flag):
 	print("Start COIN")
         start = timeit.default_timer()
         results = p.solve()
-        cointime=(timeit.default_timer() - start)
-        
+        cointime=(timeit.default_timer() - start)  
 
-        
 	print("Opening Log File")
 	logfile = open('runtimes.txt','a')
 	t = [gnutime, cointime, gurobitime]
@@ -179,7 +178,7 @@ if flag:
         pers = np.random.rand(30,2)
         params = zip(hrs, wks, read_speed)
         time = []
-        for i in xrange(18,30):
+        for i in xrange(0,30):
 		quarter = str(i)
         	print('Iter:' + str(i))	
 		time.append(solveit(data, mins[i], maxs[i], pers[i], params[i], quarter, flag))
