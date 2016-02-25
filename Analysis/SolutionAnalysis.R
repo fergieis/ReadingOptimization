@@ -4,8 +4,7 @@ A <- read.csv("~/Desktop/Reading/runtimes-stats.csv")
 
 fSolver <-factor(A$solver)
 time <- as.numeric(A$time)
-iter <- A$iter
-iter <- factor(iter)
+iter <- factor(A$iter)
 
 time.mean <- tapply.stat(A$time, A$solver, stat="mean")
 pairwise.t.test(time, fSolver, p.adj = 'hochberg', pool.sd=F)

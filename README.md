@@ -1,22 +1,23 @@
 # ReadingOptimization
 To do list:
-- [ ] Need to fork over toy instance
-- [ ] Include personal use case
+- [x] Need to fork over toy instance (NA)
+- [x] Include personal use case (NA)
 - [x] Iterate over 30 large instances
-- [ ] Implement Solver Options for Gurobi
+- [x] Implement Solver Options for Gurobi
 - [x] Descriptive Stats on basic solns
-- [ ] Stats on DOE for sol w/ Options
-- [ ] MPS file upload to NEOS
-- [ ] Port to R for LPSolve comparison
-- [ ] Modify scripts to use R input format (mps instance, time, Solver)
+- [x] Stats on DOE for sol w/ Options
+- [x] MPS file upload to NEOS (Not doing)
+- [x] Port to R for LPSolve comparison
+- [x] Modify scripts to use R input format (mps instance, time, Solver) done enough
 
 This project is separated across the following folders:
 * Analysis
-	* Image File with Plots for 30 large instances
-	* R Script for analysis of 30 large instances
+	* Image Files with Plots
+	* R Script for analysis
 * Optimization Model Files
 	* MPS files with random generated parameters
 	* Python Script to generate and solve 30 instances
+	* Gurobi Python script (to call with gurobi.sh) with changed parameters
 	* Goodreads csv file contraining base data
 	* Modified CSV file for use with R (Solver as factors)
 
