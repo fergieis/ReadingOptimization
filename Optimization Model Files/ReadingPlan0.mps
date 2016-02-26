@@ -1,5 +1,5 @@
 *SENSE:Maximize
-NAME          0
+NAME	0
 ROWS
  N  OBJ
  L  _C1
