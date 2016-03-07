@@ -15,7 +15,26 @@ data = pd.read_csv('goodreads_library_export.csv')
 #Ratings
 data.reset_index(inplace=True)
 
-def solveit(data, mins, maxs, pers, params, quarter, flag):
+#if tkMessageBox.askyesno("Project", "Is this run for project? (select \"No\" for personal use)"):
+        #print("Project:This may take a few minutes...")
+        
+hrs = np.random.randint(2,20, size=(30,1))
+wks = np.ones(30)
+wks = wks *13
+read_speed = np.random.randint(60,120, size=(30,1))
+mins = np.random.randint(0, 1, size=(30,3))
+maxs = np.random.randint(1, 3, size=(30,3))
+pers = np.random.rand(30,2)
+params = zip(hrs, wks, read_speed)
+time = []
+for i in xrange(0,30):
+	quarter = str(i)
+       	#print('Iter:' + str(i))	
+	time.append(solveit(data, mins[i], maxs[i], pers[i], params[i], quarter))
+        #print(time)
+
+
+def solveit(data, mins, maxs, pers, params, quarter):
     "Docstring for solveit function"
    
     ratings = data["Average Rating"].astype(float)
@@ -63,15 +82,13 @@ def solveit(data, mins, maxs, pers, params, quarter, flag):
         dv.append(newDV)
         
         
-        total_pages   += dv[i] * pages[rownum]
-        total_books   += (ratings[rownum] * pages[rownum]) * dv[i] 
-       
-        total_math    += math_books[rownum]    * dv[i] 
-        total_phil    += (phil_books[rownum])    * dv[i] 
-        total_milhist += (milhist_books[rownum]) * dv[i] 
-    
-        per_scifi += ((scifi_books[rownum])-(1-pers[0])) * dv[i] 
-        per_read +=  ((read_books[rownum])-(1-pers[1]) ) * dv[i] 
+        total_pages   +=  pages[rownum]                    	* dv[i]
+        total_books   += (ratings[rownum] * pages[rownum]) 	* dv[i] 
+        total_math    += math_books[rownum]    			* dv[i] 
+        total_phil    += (phil_books[rownum])    		* dv[i] 
+        total_milhist += (milhist_books[rownum]) 		* dv[i] 
+        per_scifi     += ((scifi_books[rownum])-(1-pers[0])) 	* dv[i] 
+        per_read      += ((read_books[rownum]) -(1-pers[1]) ) 	* dv[i] 
     
 
     
@@ -96,44 +113,36 @@ def solveit(data, mins, maxs, pers, params, quarter, flag):
 
     p.writeMPS("ReadingPlan%s.mps" % str(quarter))
 
-    if flag :
-	print("Start Gurobi")        
-	start = timeit.default_timer()
-        results = p.solve(GUROBI(msg=0))
-        gurobitime=(timeit.default_timer() - start)
-
-	print("Start GLPK")
-	start = timeit.default_timer()
-        results = p.solve(GLPK(msg=0))
-        gnutime=(timeit.default_timer() - start)
-        print(str(LpStatus[p.status]))
-            
-	print("Start COIN")
-        start = timeit.default_timer()
-        results = p.solve()
-        cointime=(timeit.default_timer() - start)  
-
-	print("Opening Log File")
-	logfile = open('runtimes.txt','a')
-	t = [gnutime, cointime, gurobitime]
-	comma = ", "
-	logfile.write(str(quarter)+ comma + str(gnutime)+ comma + str(cointime) + comma + str(gurobitime) + "\n")
-	logfile.close()        
-	print t
-	
     
-    else:
-        start = timeit.default_timer()
-        results = p.solve(GLPK(msg=0))
-        gnutime=(timeit.default_timer() - start)
-        printResults(p)
-        
-        t= gnutime
-    return t
+#print("Start Gurobi")        
+    start = timeit.default_timer()
+    results = p.solve(GUROBI(msg=0))
+    gurobitime=(timeit.default_timer() - start)
+
+#print("Start GLPK")
+    start = timeit.default_timer()
+    results = p.solve(GLPK(msg=0))
+    gnutime=(timeit.default_timer() - start)
+            
+#print("Start COIN")
+    start = timeit.default_timer()
+    results = p.solve()
+    cointime=(timeit.default_timer() - start)  
+
+#print("Opening Log File")
+    logfile = open('runtimes.txt','a')
+    t = [gnutime, cointime, gurobitime]
+    comma = ", "
+    logfile.write(str(quarter)+ comma + str(gnutime)+ comma + str(cointime) + comma + str(gurobitime) + "\n")
+    logfile.close()           
+  
+return t
 
 
 def printResults(p):
-    
+#Useful for printing actual solution results in human readable form. 
+#Not used for project, used in personal use.
+
     print("Total Solver Time:" + str(gnutime))
     #error handling -- throw error? or message?
     #assert Results == pulp.LpStatusOptimal
@@ -164,61 +173,8 @@ def printResults(p):
     tkMessageBox.showinfo("Solution", sol_msg)
     return
 
-flag = True
-if flag:
-#if tkMessageBox.askyesno("Project", "Is this run for project? (select \"No\" for personal use)"):
-        print("Project:This may take a few minutes...")
-        flag = True
-        hrs = np.random.randint(2,20, size=(30,1))
-        wks = np.ones(30)
-        wks = wks *13
-        read_speed = np.random.randint(60,120, size=(30,1))
-        mins = np.random.randint(0, 1, size=(30,3))
-        maxs = np.random.randint(1, 3, size=(30,3))
-        pers = np.random.rand(30,2)
-        params = zip(hrs, wks, read_speed)
-        time = []
-        for i in xrange(0,30):
-		quarter = str(i)
-        	print('Iter:' + str(i))	
-		time.append(solveit(data, mins[i], maxs[i], pers[i], params[i], quarter, flag))
-        print(time)
+
         
-else:
-        
-        flag = False
-        print("Personal")
-        data = pd.read_csv('goodreads_library_export.csv')
-        quarter = "2QFY16"
-        name = "Reading Optimization for %s" % quarter
-        hrs_wk = 3      #reading hours avail per week
-        wks = 13        #weeks per period (quarter)
-        read_speed = 80 #pages per hour
-
-        #hardcoding magic numbers
-        #Can build Tkinter UI to input
-        #mins and max numbers of book, by type
-        max_math = float('inf')
-        min_math = 2
-
-        max_hist = 2
-        min_hist = 1
-
-        max_phil = 1
-        min_phil = 1
-
-
-        #currently a minimum req'd percentage
-        percent_scifi = .3
-        #currently max percent already read
-        percent_read = .1
-        
-        mins = [min_math, min_hist, min_phil]
-        maxs = [max_math, max_hist, max_phil]
-        pers = [percent_scifi, percent_read]
-        params = [hrs_wk, wks, read_speed]
-        
-        solveit(data, mins, maxs, pers, params, quarter, flag)
 
 
 
