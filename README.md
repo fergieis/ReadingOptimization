@@ -2,8 +2,8 @@
 
 This project is separated across the following folders:
 
-*Project write-up file (pdf and odt)
-*This Markdown file
+* Project write-up file (pdf and odt)
+* This Markdown file
 * Analysis
 	* Image Files with Plots
 	* R Script for statistical analysis
