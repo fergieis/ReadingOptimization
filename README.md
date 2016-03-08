@@ -9,8 +9,11 @@ To do list:
 - [x] MPS file upload to NEOS (Not doing)
 - [x] Port to R for LPSolve comparison
 - [x] Modify scripts to use R input format (mps instance, time, Solver) done enough
+- [x] Write up complete!  Mission accomplished.
 
 This project is separated across the following folders:
+*Project write-up file
+*This Markdown file
 * Analysis
 	* Image Files with Plots
 	* R Script for analysis
@@ -20,4 +23,8 @@ This project is separated across the following folders:
 	* Gurobi Python script (to call with gurobi.sh) with changed parameters
 	* Goodreads csv file contraining base data
 	* Modified CSV file for use with R (Solver as factors)
+	* Python script to convert MPS to LP files
+	* LP model files
+	* R script for running GLPK and LP Solve
+	* a thousand tears of saddness
 

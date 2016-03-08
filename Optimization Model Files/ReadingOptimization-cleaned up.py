@@ -108,28 +108,28 @@ def solveit(data, mins, maxs, pers, params, quarter):
 
     #Proportional constraints
     p += LpConstraint(per_scifi, sense=1, name="Percent Scifi", rhs = 0) #pers[0] >= 0) 
-#can I flag this in interface to <= or >=?
+	#can I flag this in interface to <= or >=?
     p += LpConstraint(per_read, sense=-1, name="Percent Read" , rhs = 0) #pers[1] <= 0) 
 
     p.writeMPS("ReadingPlan%s.mps" % str(quarter))
 
     
-#print("Start Gurobi")        
+	#print("Start Gurobi")        
     start = timeit.default_timer()
     results = p.solve(GUROBI(msg=0))
     gurobitime=(timeit.default_timer() - start)
 
-#print("Start GLPK")
+	#print("Start GLPK")
     start = timeit.default_timer()
     results = p.solve(GLPK(msg=0))
     gnutime=(timeit.default_timer() - start)
             
-#print("Start COIN")
+	#print("Start COIN")
     start = timeit.default_timer()
     results = p.solve()
     cointime=(timeit.default_timer() - start)  
 
-#print("Opening Log File")
+	#print("Opening Log File")
     logfile = open('runtimes.txt','a')
     t = [gnutime, cointime, gurobitime]
     comma = ", "

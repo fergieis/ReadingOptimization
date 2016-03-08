@@ -1,14 +1,14 @@
 
 # coding: utf-8
 
-import Tkinter as tk
-from gurobipy import *
-from pulp import *
-from itertools import compress #for boolean masking
-import numpy as np
-import pandas as pd
+import Tkinter as tk		#GUI tools
+from gurobipy import *		#access gurobi methods
+from pulp import *		#to build model
+from itertools import compress 	#for boolean masking
+import numpy as np 		#random variates
+import pandas as pd		#for dataframe
 import re, timeit, datetime, tkMessageBox #might not need regular expressions anymore
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt #Plotting (Used R instead)
 
 data = pd.read_csv('goodreads_library_export.csv')
 #define my sets/technological coefficients 
@@ -135,9 +135,7 @@ def solveit(data, mins, maxs, pers, params, quarter):
     comma = ", "
     logfile.write(str(quarter)+ comma + str(gnutime)+ comma + str(cointime) + comma + str(gurobitime) + "\n")
     logfile.close()           
-  
 return t
-
 
 def printResults(p):
 #Useful for printing actual solution results in human readable form. 
